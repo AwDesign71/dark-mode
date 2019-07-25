@@ -1,6 +1,6 @@
 import React from "react";
 import Chart from "./Chart";
-
+import '../../src/styles.scss';
 const Charts = ({ coinData }) => {
   return (
     <div className="charts">

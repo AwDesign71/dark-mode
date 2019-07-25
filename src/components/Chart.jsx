@@ -8,7 +8,7 @@ import {
   YAxis,
   Tooltip
 } from "recharts";
-
+import '../../src/styles.scss';
 const Chart = ({ sparklineData }) => {
   const formattedData = sparklineData
     .map((price, idx) => {
